@@ -211,7 +211,30 @@
 
 <br><br><br>
 
+<footer class="sc-eywOmQ kUJCQO"> 
+    <section class="libro-reclamaciones">
+        <h2>Libro de Reclamaciones</h2>
+        <p>Estamos aquí para escuchar tus comentarios y resolver tus reclamaciones. Por favor, completa el siguiente formulario:</p>
+        <form action="procesar_reclamacion.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="reclamacion">Reclamación:</label>
+        <textarea id="reclamacion" name="reclamacion" required></textarea>
+        
+        <button type="submit">Enviar Reclamo</button>
+        </form>
+    </section>
 
+    <div class="lista_footer">
+        <ul>
+            <li><a href="" target="_blank" rel="noreferrer">© Copyright Municipalidad de Miraflores 2023</a></li>
+        </ul>
+    </div>
+</footer>
 
 </body>
 </html>
