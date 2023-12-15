@@ -26,6 +26,28 @@
             </ul>
         </nav>
     </header>
+
+    <section class="formulario">
+        <h1>Consulta tus trámites</h1>
+        <form class="formulario" action="procesar.php" method="post">
+
+            <label for="ciudadOrigen">Oficina:</label>
+            <select id="ciudadOrigen" name="ciudadOrigen">
+                <option value="ciudadOrigen">Elige la oficina</option>
+                    <option value="Gerencia Municipal">Gerencia Municipal</option>
+                    <option value="Secretaría General">Secretaría General</option>
+                    <option value="Gerencia de Adminsitración Tributaria">Gerencia de Adminsitración Tributaria</option>
+                    <option value="Gerencia de Sistemas de Tecnologías de la Información">Gerencia de Sistemas de Tecnologías de la Información</option>
+                    <option value="Gerencia de Administración y finanzas">Gerencia de Administración y finanzas</option>
+                    <option value="Gerencia de Autorización y Control">Gerencia de Autorización y Control</option>
+            </select>
+    
+            <label for="Fecha de Inicio de Trámite">Fecha de Inicio de Trámite:</label>
+                <input type="date" id="fechaSalida" name="fechaSalida">
+        
+            <button type="submit">BUSCAR</button>
+        </form>
+    </section>
     
 </body>
 </html>
